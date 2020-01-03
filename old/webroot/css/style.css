@@ -1,0 +1,51 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+body > .container-fluid {
+	padding: 80px 15px 0;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+}
+
+.container-fluid .text-muted {
+	margin: 20px 0;
+}
+
+.footer > .container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+#days_menu {
+	margin-bottom: 15px;
+}
+
+.panel-heading a {
+	color:#ffffff;
+}
+
+#days_menu {
+	display:none;
+}
+
+.film_content {
+	display: none;
+}

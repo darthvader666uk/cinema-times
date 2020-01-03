@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twbs/bootstrap": "^3.3",
+        "aura/autoload": "^2.0",
+        "leeoniya/dump-r": "^2.1"
+    }
+}
