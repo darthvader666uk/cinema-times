@@ -32,5 +32,5 @@ include(ROOT.'includes/functions.php');
  * Now include the rest of the site
  */
 include(ROOT.'includes/header.php');
-include(ROOT.'includes/main.php');
+include(ROOT.'includes/main-cineworld.php');
 include(ROOT.'includes/footer.php');
