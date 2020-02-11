@@ -11,6 +11,7 @@ So far we have
 1. Cineworld
 2. Odeon (Slight oddness that you have to tab each day as the way the informationb is presented)
 3. Maxime Cinema (Mainly Blackwood)
+4. Everyman
 
 **To Do**
 
