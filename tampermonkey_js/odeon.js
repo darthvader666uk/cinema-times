@@ -1,11 +1,18 @@
 // ==UserScript==
-// @name         Odeon Calculate End Time
-// @version      0.1
-// @description  Trying to Calculate the end time sof films to see when the film ends
-// @author       snightingale
-// @match        *://www.odeon.co.uk/cinemas/*/*/*
-// @require      http://code.jquery.com/jquery-3.4.1.min.js
-// @run-at       document-idle
+// @name        Odeon Calculate End Time
+// @icon        https://www.odeon.co.uk/images/favicon.png
+// @author      snightingale
+// @license     MIT
+// @version     1.0
+// @namespace   https://github.com/darthvader666uk
+// @homepageURL https://github.com/darthvader666uk/cinema-times
+// @supportURL  https://github.com/darthvader666uk/cinema-timesissues
+// @downloadURL https://raw.githubusercontent.com/darthvader666uk/cinema-times/master/tampermonkey_js/odeon.js
+// @updateURL   https://raw.githubusercontent.com/darthvader666uk/cinema-times/master/tampermonkey_js/odeon.js
+// @description Trying to Calculate the end times of films to see when the film ends (assumes 30 Mins for Trailers)
+// @match       *://www.odeon.co.uk/cinemas/*
+// @require     http://code.jquery.com/jquery-3.4.1.min.js
+// @run-at      document-idle
 // ==/UserScript==
 
 var $ = window.jQuery;

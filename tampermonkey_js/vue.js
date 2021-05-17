@@ -1,11 +1,18 @@
 // ==UserScript==
-// @name         Vue Calculate End Time
-// @version      0.1
-// @description  Trying to Calculate the end times of films to see when the film ends
-// @author       snightingale
-// @match        *://www.myvue.com/cinema/*/whats-on
-// @require      http://code.jquery.com/jquery-3.4.1.min.js
-// @run-at       document-idle
+// @name        Vue Calculate End Time
+// @icon        https://www.myvue.com/assets/images/favicons/apple-touch-icon-57x57.png
+// @author      snightingale
+// @license     MIT
+// @version     1.0
+// @namespace   https://github.com/darthvader666uk
+// @homepageURL https://github.com/darthvader666uk/cinema-times
+// @supportURL  https://github.com/darthvader666uk/cinema-timesissues
+// @downloadURL https://raw.githubusercontent.com/darthvader666uk/cinema-times/master/tampermonkey_js/vue.js
+// @updateURL   https://raw.githubusercontent.com/darthvader666uk/cinema-times/master/tampermonkey_js/vue.js
+// @description Trying to Calculate the end times of films to see when the film ends (assumes 30 Mins for Trailers)
+// @match       *://www.myvue.com/cinema/*/whats-on
+// @require     http://code.jquery.com/jquery-3.4.1.min.js
+// @run-at      document-idle
 // ==/UserScript==
 
 var $ = window.jQuery;

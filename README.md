@@ -9,9 +9,8 @@ I am now concentrating and making Tampermoney / Greasemonkey Scripts so that it 
 So far we have 
 
 1. Cineworld
-2. Odeon (Slight oddness that you have to tab each day as the way the informationb is presented)
-3. Maxime Cinema (Mainly Blackwood)
-4. Everyman
+2. Maxime Cinema (Mainly Blackwood)
+3. Everyman
 
 **To Do**
 
@@ -19,6 +18,7 @@ These are on the To Do list:
 
 1. Showcase (however no runtime is shown on each listing so might not happen)
 2. Vue
+3. Odeon
 
 Any cinemas I have missed or would like, let me know.
 

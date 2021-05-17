@@ -1,11 +1,18 @@
 // ==UserScript==
-// @name         Gitlab Branch reference
-// @version      0.2
-// @description  This now displays the branch reference on the issue sidebar underneath Reference for merge requests.
-// @author       snightingale
-// @match        *://source.updraftplus.com/team-updraft/*/merge_requests/*
-// @require      http://code.jquery.com/jquery-3.4.1.min.js
-// @run-at       document-idle
+// @name        Gitlab Branch reference
+// @icon        https://www.everymancinema.com/Themes/Theme_Everyman/Content/images/icons/favicon.png
+// @author      snightingale
+// @license     MIT
+// @version     1.1
+// @namespace   https://github.com/darthvader666uk
+// @homepageURL https://github.com/darthvader666uk/cinema-times
+// @supportURL  https://github.com/darthvader666uk/cinema-timesissues
+// @downloadURL https://raw.githubusercontent.com/darthvader666uk/cinema-times/master/tampermonkey_js/gitlab_branch_reference.js
+// @updateURL   https://raw.githubusercontent.com/darthvader666uk/cinema-times/master/tampermonkey_js/gitlab_branch_reference.js
+// @description This now displays the branch reference on the issue sidebar underneath Reference for merge requests.
+// @match       *://source.updraftplus.com/team-updraft/*/merge_requests/*
+// @require     http://code.jquery.com/jquery-3.4.1.min.js
+// @run-at      document-idle
 // ==/UserScript==
 
 var $ = window.jQuery;
