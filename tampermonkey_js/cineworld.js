@@ -26,10 +26,24 @@ $(document).ready(function(){
         // Get the Length of the film
         var filmLength = $(this).find('div.qb-movie-info span').text();
 
-        // Convert to Int
-        var filmLengthInt = parseInt(filmLength); //Output will be 234.
 
-        console.log("hello 1 "+filmLength);
+        // console.log("hello 1 "+filmLength);
+
+        // Split the film length as it now shows genre
+        filmarr = filmLength.split('|') 
+
+        // console.log(filmarr[1]);
+
+        // clean the time to make it an number
+        filmLengthClean = filmarr[1].replace(' mins', '');
+
+        // console.log(filmLengthClean);
+
+
+        // Convert to Int
+        var filmLengthInt = parseInt(filmLengthClean); //Output will be 234.
+
+        // console.log(filmLengthInt);
 
         // Get each time
         $(this).find('div.qb-movie-info-column a').each(function() {
